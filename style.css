@@ -1,0 +1,54 @@
+body{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.center{
+    text-align: center;
+}
+
+form#centerForm{
+    text-align: center;
+}
+
+form#centerForm input{
+    text-align: center;
+}
+
+.bt{
+    margin-top: 15px;
+}
+
+#chRe {
+    background-color: white;
+    color: black;
+}
+
+#descricao {
+    font-weight: 700;
+    user-select: none;
+}
+
+#tableimc {
+    margin: auto;
+    user-select: none;
+}
+
+#head {
+    background-color: aqua;
+    font-size: 20px;
+}
+
+.class {
+    text-align: center;
+    background-color: rgb(200, 243, 229);
+    font-size: 18px;
+    padding: 5px;
+}
+
+.imc {
+    text-align: left;
+    background-color: rgb(200, 243, 229);
+    font-size: 18px;
+    padding: 5px;
+}

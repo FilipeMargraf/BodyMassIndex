@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="center">Bem-vindo(a) a minha calculadora de índice de massa corporal!</h1>
+    <hr>
+    <form id="centerForm" name="formBmi">
+        <h3>Insira seu peso:</h3>
+
+        <input type="number" name="mass" id="n1">
+
+        <h3>Insira sua altura:</h3>
+
+        <input type="number" name="height" id="n2"
+        ><br>
+        <input type="button" value="Calculate" name="calculate" class="bt" onclick="calc()">
+        <br>
+        <h3>Resultado:</h3>
+        <input type="text" name="result" class="res" id="chRe" disabled>
+        <p id="descricao">ㅤ</p>
+    </form>
+
+    <div id="tabela">
+    <table id="tableimc">
+        <tr id="head">
+            <th>IMC</th>
+            <th>Classificação</th>
+        </tr>
+        <tr>
+            <td class="imc" id="abaixo1">Menor que 18,5</td>
+            <td class="class" id="abaixo2">Abaixo do peso</td>
+        </tr>
+        <tr>
+            <td class="imc" id="ideal1">Entre 18,5 e 24,9</td>
+            <td class="class" id="ideal2">Peso Ideal</td>
+        </tr>
+        <tr>
+            <td class="imc" id="sobrepeso1">Entre 25 e 29,9</td>
+            <td class="class" id="sobrepeso2">Sobrepeso</td>
+        </tr>
+        <tr>
+            <td class="imc" id="grauI1">Entre 30 e 34,9</td>
+            <td class="class" id="grauI2">Obesidade Grau I</td>
+        </tr>
+        <tr>
+            <td class="imc" id="grauII1">Entre 35 e 39,9</td>
+            <td class="class" id="grauII2">Obesidade Grau II</td>
+        </tr>
+        <tr>
+            <td class="imc" id="morbida1">Maior que 40</td>
+            <td class="class" id="morbida2">Obesidade Grau III ou Mórbida</td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
